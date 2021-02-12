@@ -1,6 +1,7 @@
 pipeline{
 	agent any
-	stages{Pull Latest Image"){
+	stages{
+		stage("Pull Latest Image"){
 			steps{
 				bat "docker pull mogreat1/selenium-docker"
 			}
